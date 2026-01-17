@@ -1,9 +1,29 @@
-name = "SpacecraftGameBenchmarks"
+name = "SpacecraftGames"
 uuid = "6e41399c-043b-478c-b0ff-bfcb964fb2f9"
 authors = ["BennetOutland <bennet.outland@pm.me> and contributors"]
 version = "1.0.0-DEV"
 
+[deps]
+BlockDiagonals = "0a1fb500-61f7-11e9-3c65-f5ef3456f9f0"
+DifferentialGames = "497f78f8-f326-11f0-3aad-a3ebf6911431"
+DifferentialGamesBase = "a9dd1e63-b4ad-4579-bca8-3a609f3d87b9"
+DifferentialGamesBaseSolvers = "b83b0c57-42fa-43ab-a182-d5be40f43772"
+FileIO = "5789e2e9-d7fb-5bc7-8068-2c6fae9b9549"
+GeoMakie = "db073c08-6b98-4ee5-b6a4-5efafb3259c6"
+RPRMakie = "22d9f318-5e34-4b44-b769-6e3734a732a6"
+Rotations = "6038ab10-8711-5258-84ad-4b1120ba62dc"
+SatelliteToolbox = "6ac157d9-b43d-51bb-8fab-48bf53814f4a"
+
 [compat]
+BlockDiagonals = "0.2.0"
+DifferentialGames = "1.0.0"
+DifferentialGamesBase = "1.0.0"
+DifferentialGamesBaseSolvers = "1.0.0"
+FileIO = "1.17.1"
+GeoMakie = "0.7.16"
+RPRMakie = "0.10.8"
+Rotations = "1.7.1"
+SatelliteToolbox = "1.0.0"
 julia = "1.10.10"
 
 [extras]
