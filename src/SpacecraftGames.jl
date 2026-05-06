@@ -43,7 +43,7 @@ export create_sun_blocking_scenario, create_sun_blocking_game
 # ---------------------------------------------------------------------------
 # Lady-Guard-Bandit game (3-player, nonlinear HCW)
 # ---------------------------------------------------------------------------
-include("games/lady_guard_bandit.jl")
+include("benchmarks/lady_guard_bandit.jl")
 
 # Parameters and variants
 export LBGParameters, LBGInitVariant, LBG_I1, LBG_I2
